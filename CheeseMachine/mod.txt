@@ -1,0 +1,30 @@
+{
+    "name" : "Auto Meth",
+    "description" : "duh",
+    "author" : "Yours truly",
+    "contact" : "",
+    "version" : "1.0",
+    "hooks" : [
+   
+        {
+            "hook_id" : "lib/managers/DialogManager"
+            "script_path" : "infIng.lua"
+        },
+        {
+            "hook_id" : "lib/managers/objectinteractionmanager"
+            "script_path" : "Autobag.lua"
+        }
+    ],
+    "keybinds" : [
+   
+        {
+        "keybind_id" : "infIng",
+        "name" : "Auto Cooking",
+        "description" : "Autocook Cook Off eh?"
+        "script_path" : "toggle.lua",
+        "run_in_menu" : true,
+        "run_in_game" : true,
+        "localization": false
+        }
+    ]
+}

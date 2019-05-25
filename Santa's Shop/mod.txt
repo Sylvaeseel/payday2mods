@@ -1,0 +1,14 @@
+{
+    "name" : "Auto Elf",
+    "description" : "Santa's werkshop",
+    "author" : "UknownCheats",
+    "contact" : "",
+    "version" : "1.0",
+    "hooks" : [
+   
+	{
+		"hook_id" : "lib/managers/objectinteractionmanager"
+		"script_path" : "autoElf.lua"
+	}
+    ]
+}

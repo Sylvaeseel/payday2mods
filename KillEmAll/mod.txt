@@ -1,0 +1,21 @@
+{
+	"name" : "KillemAll",
+	"description" : "Just what it says on the tin",
+	"author" : "Meh",
+	"contact" : "",
+	"version" : "1.0",
+	"priority" : 50,
+	"blt_version" : 2,
+    "keybinds" : [
+   
+        {
+        "keybind_id" : "KeaKey",
+        "name" : "KillemAll",
+        "description" : "Stuff"
+        "script_path" : "kea.lua",
+        "run_in_menu" : false,
+        "run_in_game" : true,
+        "localization": false
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name" : "HeatMod",
+    "description" : "Removes penalty for replaying missions",
+    "author" : "Skinny Benis",
+    "contact" : "",
+    "version" : "1.0",
+    "persist_scripts" : [
+        {
+            "global" : "heatModVar",
+            "script_path" : "heatModScript.lua"
+        }
+    ]
+}
